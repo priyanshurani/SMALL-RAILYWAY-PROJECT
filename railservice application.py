@@ -2,10 +2,11 @@
 #PNR STATUS ,SEAT AVAILABILITY AND TRAIN RUNNING STATUS
 # ITS valid till 27.09.2019
 # ITS CREATED BY PRIYANSHU RANI
+# API KEY USED : q83hyb6hce
 
 
 
-import requests#in order to use railway api in json format
+import requests                               #in order to use railway api in json format
 def menu():
     user_input=input("""welcome to our rail service. press.....
     1. To find train route
